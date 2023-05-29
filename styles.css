@@ -1,0 +1,30 @@
+body {
+    height: 100vh;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 60%;
+}
+
+table {
+    border: 3px solid #565656;
+    
+}
+
+caption {
+    font-size: 2rem;
+    margin: 1em 0;
+}
+
+table td, table th {
+    border: 1px solid #565656;
+}
+
+table th {
+    background-color: #869960;
+    color: #fff;
+}
